@@ -1,10 +1,12 @@
 html {
-	font-family: 'Arial';
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
 }
 
 a {
 	text-decoration: none;
 	color: gray;
+
 }
 
 a:hover {
@@ -13,6 +15,7 @@ a:hover {
 
 p {
 	color: gray;
+	text-transform: lowercase;
 }
 
 h1 { font-size: 2em; }
