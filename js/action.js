@@ -22,7 +22,7 @@ $( document ).ready(function() {
   	})
 
   	$(window).resize(function(){
-        if($( window ).width() > 753) {
+        if($( window ).width() > 835) {
         	$('.responsive-menu').hide();
   			$('.site-grid').show();
         }
