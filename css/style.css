@@ -1,0 +1,162 @@
+html {
+	font-family: 'Arial';
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+}
+
+a:hover {
+	color: black;
+}
+
+p {
+	color: gray;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.12em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
+
+
+.site-grid {
+	display: grid;
+	grid-template-columns: 1fr 4fr;	
+	margin: 0% 5% 0% 5%;
+	position: relative;
+	z-index: 0;
+}
+
+.responsive-grid {
+	margin: 0% 5% 0% 5%;
+}
+
+.mobile-header {
+	display: none;
+}
+
+.responsive-menu {
+	display: none;	
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+
+.responsive-grid {
+	display: grid;
+	grid-template-rows: 100px 1fr 100px;	
+}
+
+.responsive-social-links a {
+	margin: 40px;
+}
+
+.responsive-nav {	
+	text-align: center;
+	font-size: 2em;
+	padding-top: 30px;
+}
+
+.responsive-page-title, .responsive-list-title, .responsive-project-title {
+	padding: 0 0 30px;
+}
+
+.sidebar-logo {
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+
+.sidebar-list-title {
+	padding-bottom: 12px;
+}
+
+.sidebar-projects-list {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.project-title, .page-title {
+	padding-bottom: 5px;
+}
+
+.social-links a {
+	margin-right: 10px;
+}
+
+.projects-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 1%;
+	padding-top: 40px;
+}
+
+.project-card {
+	text-align: center;	
+}
+
+.project-card img {
+	width: 100%;
+	height: auto;
+}
+
+.project-card h3 {
+	margin: 20px 0px 10px 0px;
+	font-weight: 700;
+}
+
+.project-about {
+	margin-bottom: 50px;
+}
+
+footer {
+	grid-column-start: 2;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .mobile-header, .responsive-grid header {
+    	padding-top: 30px;    	
+    }
+
+    .bars-click-area, .times-click-area {
+    	height: 50px;
+    	width: 50px;    	
+    }
+
+    .site-grid {
+		grid-template-columns: 1fr;
+    }
+
+    .sidebar-content {
+    	display: none;
+    }
+
+    .projects-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 1%;
+	}
+
+	footer {
+		grid-column-start: 1;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+    
+    .projects-grid {
+		display: grid;
+		grid-template-columns: 1fr;		
+	}
+
+	.project-card {
+		width: 100%;
+	}
+}

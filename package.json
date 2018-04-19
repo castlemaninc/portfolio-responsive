@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-responsive",
+  "version": "1.0.0",
+  "description": "web developer portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/castlemaninc/portfolio-responsive.git"
+  },
+  "keywords": [
+    "javascript",
+    "css",
+    "html",
+    "responsive"
+  ],
+  "author": "Bryan Castleman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/castlemaninc/portfolio-responsive/issues"
+  },
+  "homepage": "https://github.com/castlemaninc/portfolio-responsive#readme"
+}

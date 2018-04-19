@@ -1,0 +1,33 @@
+.social-links {
+	display: flex;
+	flex-direction: row;	
+}
+
+.responsive-menu header {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.resposive-menu footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.bars-click-area {
+	display: flex;	
+	flex-direction: row-reverse;
+}
+
+.responsive-nav {
+	display: flex;
+	flex-direction: column;	
+}
+
+@media only screen and (max-width: 768px) {
+	.mobile-header {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
