@@ -5,7 +5,7 @@ html {
 
 a {
 	text-decoration: none;
-	color: gray;
+	color: #282828;
 
 }
 
@@ -14,7 +14,7 @@ a:hover {
 }
 
 p {
-	color: gray;
+	color: #282828;
 	text-transform: lowercase;
 }
 
@@ -71,6 +71,7 @@ h6 { font-size: .75em; }
 .sidebar-logo {
 	padding-top: 60px;
 	padding-bottom: 50px;
+	font-weight: 700;
 }
 
 .sidebar-list-title {
@@ -84,6 +85,10 @@ h6 { font-size: .75em; }
 
 .project-title, .page-title {
 	padding-bottom: 5px;
+}
+
+.project-about h3 {
+	text-decoration: underline;
 }
 
 .social-links a {
