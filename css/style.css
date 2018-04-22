@@ -1,12 +1,11 @@
+
 html {
-	font-family: 'Lato', sans-serif;
-	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;	
 }
 
 a {
 	text-decoration: none;
-	color: #282828;
-
+	color: #484848;
 }
 
 a:hover {
@@ -14,8 +13,7 @@ a:hover {
 }
 
 p {
-	color: #282828;
-	text-transform: lowercase;
+	color: #282828;	
 }
 
 h1 { font-size: 2em; }
@@ -25,6 +23,9 @@ h4 { font-size: 1.12em; }
 h5 { font-size: .83em; }
 h6 { font-size: .75em; }
 
+h1,h2,h3,h4,h5,h6 {
+	text-transform: uppercase;
+}
 
 .site-grid {
 	display: grid;
@@ -99,7 +100,29 @@ h6 { font-size: .75em; }
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap: 1%;
-	padding-top: 40px;
+	padding-top: 60px;
+}
+
+.project-container, .page-container {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.about-description, .project-description {
+	margin-top: 40px;
+	width: 60%;
+	line-height: 1.8em;	
+}
+
+.page-heading, .project-heading {
+	font-weight: 700;
+}
+
+.responsive-list-title {
+	font-weight: 700;
 }
 
 .project-card {
@@ -118,6 +141,38 @@ h6 { font-size: .75em; }
 
 .project-about {
 	margin-bottom: 50px;
+}
+
+.contact-info, .contact-form {
+	margin-top: 40px;	
+	line-height: 1.8em;	
+}
+
+.contact-form {
+	margin: 20px auto 40px auto;
+	width: 40%;
+}
+
+.contact-form {
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.contact-form button {
+	margin-top: 10px;
+	width: 80px;
+}
+
+.form-input {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.form-input input, .form-input textarea {
+	padding: 5px;
+	width: 100%;
 }
 
 footer {
